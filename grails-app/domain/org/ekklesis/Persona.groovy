@@ -12,6 +12,6 @@ class Persona {
     static constraints = {
     }
     String toString(){
-        ${nombres + " " + apellidos}
-    } 
+        nombres + ' ' + apellidos
+    }
 }
