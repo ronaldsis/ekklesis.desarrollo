@@ -1,0 +1,95 @@
+table {
+    width: 100%;
+    border-top: 1px solid #e5eff8;
+    border-right: 1px solid #e5eff8;
+    border-collapse: collapse;
+}
+
+caption {
+    color: #9ba9b4;
+    font-size: 14px;
+    letter-spacing: .1em;
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    caption-side: top;
+    text-align: center;
+    border: 1px solid #9ba9b4;
+    background-color: #fff;
+}
+/*
+tr.odd td {
+    background: #f7fbff
+}
+*/
+
+tr.odd .column1 {
+    background: #f4f9fe;
+} .column1 {
+    background: #f9fcfe;
+}
+
+td {
+    color: #678197;
+    border-bottom: 1px solid #e5eff8;
+    border-left: 1px solid #e5eff8;
+    padding: .3em 1em;
+    text-align: center;
+}
+
+th {
+    font-weight: normal;
+    color: #678197;
+    text-align: left;
+    border-bottom: 1px solid #e5eff8;
+    border-left: 1px solid #e5eff8;
+    padding: .3em 1em;
+}
+
+thead th {
+    background: #f4f9fe;
+    text-align: center;
+    font: bold 1.2em / 2em "Century Gothic", "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #66a3d3
+}
+
+tfoot th {
+    text-align: center;
+    background: #f4f9fe;
+}
+
+tfoot th strong {
+    font: bold 1.2em "Century Gothic", "Trebuchet MS", Arial, Helvetica, sans-serif;
+    margin: .5em .5em .5em 0;
+    color: #66a3d3;
+}
+
+tfoot th em {
+    color: #f03b58;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-style: normal;
+}
+.highlight{
+	background:#cae0f0;
+}
+
+
+
+
+
+/*
+Agregado de bluedream.css
+*/
+
+tbody th, tbody td {
+ text-align:left;
+ vertical-align:top;
+}
+
+.odd { background:#f7fbff;
+}
+tbody tr:hover {
+ background:#BBD9EE;
+
+ color:#000000;
+}
